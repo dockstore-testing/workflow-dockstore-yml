@@ -2,11 +2,11 @@ version: 1.2
 workflows:
        -  name: foobar
           subclass: wdl
-          primaryDescriptorPath: /Dockstore2.wdl
+          primaryDescriptorPath: /Dockstore.wdl
           testParameterFiles:
               - /dockstore.wdl.json
           latestTagAsDefault: false
-       -  name: foobar2
+       -  name: foobar
           subclass: cwl
           primaryDescriptorPath: /Dockstore.cwl
           latestTagAsDefault: true
