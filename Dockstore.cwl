@@ -1,7 +1,5 @@
-
 cwlVersion: v1.0
 class: Workflow
-doc: "This is a description"
 
 dct:creator:
   foaf:name: Test User

@@ -10,7 +10,7 @@ workflows:
        -  name: foobar2
           subclass: cwl
           primaryDescriptorPath: /Dockstore.cwl
-          readMePath: /docst/README.md
+          readMePath: /docs/README.md
           latestTagAsDefault: true
           testParameterFiles:
               - /dockstore.cwl.json
