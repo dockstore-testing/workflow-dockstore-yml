@@ -3,12 +3,14 @@ workflows:
        -  name: foobar
           subclass: wdl
           primaryDescriptorPath: /Dockstore2.wdl
+          readMePath: README2.md
           testParameterFiles:
               - /dockstore.wdl.json
           latestTagAsDefault: false
        -  name: foobar2
           subclass: cwl
           primaryDescriptorPath: /Dockstore.cwl
+          readMePath: /docst/README.md
           latestTagAsDefault: true
           testParameterFiles:
               - /dockstore.cwl.json
