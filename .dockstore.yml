@@ -3,7 +3,7 @@ workflows:
        -  name: foobar
           subclass: wdl
           primaryDescriptorPath: /Dockstore2.wdl
-          readMePath: README2.md
+          readMePath: /README2.md
           testParameterFiles:
               - /dockstore.wdl.json
           latestTagAsDefault: false
