@@ -24,5 +24,6 @@ workflow ga4ghMd5 {
   meta {
       author : "Test User"
       email : "test@dockstore.org"
+      description: "This is a description"
    }
 }
