@@ -22,8 +22,8 @@ workflow ga4ghMd5 {
  call md5 { input: inputFile=inputFile }
  
   meta {
-      author : "Test User"
-      email : "test@dockstore.org"
+      author: "Test User"
+      email: "test@dockstore.org"
       description: "This is a description"
    }
 }
