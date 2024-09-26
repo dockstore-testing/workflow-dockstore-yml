@@ -1,17 +1,10 @@
 version: 1.2
 workflows:
-       -  name: foobar
-          subclass: wdl
-          primaryDescriptorPath: /Dockstore2.wdl
-          testParameterFiles:
-              - /dockstore.wdl.json
-          latestTagAsDefault: false
-          authors:
-              - orcid: 0000-0003-4896-1858
        -  name: foobar2
           subclass: cwl
           primaryDescriptorPath: /Dockstore.cwl
           latestTagAsDefault: true
+          disableDoiGeneration: true
           testParameterFiles:
               - /dockstore.cwl.json 
           authors:
