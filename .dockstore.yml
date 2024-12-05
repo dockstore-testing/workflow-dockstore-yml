@@ -4,7 +4,7 @@ workflows:
           subclass: cwl
           primaryDescriptorPath: /Dockstore.cwl
           latestTagAsDefault: true
-          disableDoiGeneration: true
+          enableAutoDois: false
           testParameterFiles:
               - /dockstore.cwl.json 
           authors:
